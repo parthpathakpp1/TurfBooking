@@ -11,7 +11,6 @@ function App() {
     <div className="App">
       <Routes>
         <Route path="/" element={<LandingPage />} />
-        {/* Add a route for TurfDetails */}
         <Route path="/turfs/:turfId" element={<TurfDetails />} />
       </Routes>
     </div>

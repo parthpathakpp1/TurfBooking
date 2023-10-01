@@ -1,0 +1,31 @@
+/* CSS animation classes for left-to-right and right-to-left */
+.left-to-right {
+    animation: slideFromLeft 2s ease-in-out;
+  }
+  
+  .right-to-left {
+    animation: slideFromRight 2s ease-in-out;
+  }
+  
+  @keyframes slideFromLeft {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideFromRight {
+    0% {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  

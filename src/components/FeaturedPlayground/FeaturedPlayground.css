@@ -1,0 +1,19 @@
+.logo-container {
+    animation: moveLogos 8s linear infinite; /* Adjust the duration and timing function as needed */
+    overflow: hidden;
+  }
+  
+  .logo {
+    transition: transform 2s linear; /* Adjust the transition duration */
+  }
+    
+  
+  @keyframes moveLogos {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%); /* Adjust the distance to move the logos */
+    }
+  }
+  

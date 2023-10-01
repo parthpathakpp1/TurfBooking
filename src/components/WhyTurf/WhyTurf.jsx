@@ -24,7 +24,7 @@ function WhyTurf() {
   };
 
   return (
-    <section id="whyTurfZone" className="content-center w-full" ref={ref}>
+    <section id="whyTurfZone" className="content-center w-full bg-gray-100" ref={ref}>
       <div className="w-4/5 mx-auto">
         <div className="flex flex-wrap -mx-4">
           <div className="w-full px-4">

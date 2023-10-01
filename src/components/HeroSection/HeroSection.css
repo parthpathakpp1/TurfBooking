@@ -17,6 +17,19 @@
       opacity: 1;
     }
   }
+  .animation-span {
+    animation: changeColor 3s infinite alternate;
+  }
+  
+  @keyframes changeColor {
+    0% {
+      color: #f06292; /* Initial color */
+    }
+    100% {
+      color: #81c784; /* Final color */
+    }
+  }
+  
   
   @keyframes slideFromRight {
     0% {

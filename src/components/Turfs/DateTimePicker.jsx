@@ -17,8 +17,8 @@ const DateTimePicker = ({ selectedDate, selectedTime, onDateChange, onTimeChange
       <TimePicker
         value={selectedTime}
         onChange={onTimeChange}
-        clockClassName="text-2xl" // Adjust the font size here
-        className="border rounded-md px-3 py-2 w-full"
+        clockClassName="text-3xl" // Adjust the font size here
+        className="border rounded-md px-3 py-2 w-45" // Increase width to 25px
       />
     </div>
   );

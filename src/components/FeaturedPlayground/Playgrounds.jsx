@@ -20,7 +20,7 @@ const Playgrounds = () => {
     );
   });
   return (
-    <div className="w-full">
+    <div className="w-full bg-gray-100">
       <h2 className="pt-4 text-3xl font-extrabold text-center">
         Featured <span className="text-primary-color">Playgrounds</span>
       </h2>
